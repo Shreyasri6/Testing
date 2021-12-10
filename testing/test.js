@@ -24,7 +24,7 @@ describe("Task-api", function () {
   });
 });
 
-describe("/user", function () {
+describe("/users", function () {
   it("post user", function (done) {
     let user = {
       name: "ABCDE",
